@@ -45,8 +45,6 @@ public class ColorPreferenceDisplayColor extends ColorPreference
 	}
 
 	// プリファレンス変更結果を、呼び出し元の画面に反映されるために、notifyChanged() が必要。
-	// （DisplayValueEditTextPreference、DisplayValueListPreferenceは、
-	// 　親クラスのsetValues()にnotifyChanged()呼び出しがあるので、不要）
 	@Override
 	public void setColor( int value )
 	{
