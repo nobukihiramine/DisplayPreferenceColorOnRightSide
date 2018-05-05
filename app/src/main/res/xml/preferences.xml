@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.hiramine.displaypreferencecoloronrightside.ColorPreference
+        android:defaultValue="#FF0088"
+        android:key="color_preference_1"
+        android:summary="summary"
+        android:title="Color preference"/>
+    <com.hiramine.displaypreferencecoloronrightside.ColorPreferenceDisplayColor
+        android:defaultValue="#0088FF"
+        android:key="color_preference_2"
+        android:summary="summary"
+        android:title="Display colored image Color preference"/>
+
+</PreferenceScreen>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DisplayPreferenceColorOnRightSide</string>
+
+    <!-- MainActivity メニュー用 -->
+    <string name="settings">Settings</string>
+
+    <!-- Preferences用 -->
+    <string name="r_colon">R : </string>
+    <string name="g_colon">G : </string>
+    <string name="b_colon">B : </string>
+
+</resources>
