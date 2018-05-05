@@ -8,7 +8,7 @@ Preferenceで色設定をする方法の要点としては、
 - onDialogClosed関数をオーバーライドし、OKボタンが押された場合に、設定色の保存を行う。
 
 設定色を設定項目の右側に表示する方法の要点としては、
-- 色設定Preferenceクラスの派生クラスを作成する。
+- 上記で作成した色設定Preferenceクラスの派生クラスを作成する。
 - onCreateView関数をオーバーライドし、setWidgetLayoutResource関数で、ImageViewを登録する。
 - onBindView関数をオーバーライドし、textView.setText関数で、ImageViewの背景色を設定色とする。
 
